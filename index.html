@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Website</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <main>
+    <header id="header">
+      <div class="overlay overlay-lg">
+        <img src="./img/shapes/square.png" class="shape square" alt="" />
+        <img src="./img/shapes/circle.png" class="shape circle" alt="" />
+        <img src="./img/shapes/half-circle.png" class="shape half-circle1" alt="" />
+        <img src="./img/shapes/half-circle.png" class="shape half-circle2" alt="" />
+        <img src="./img/shapes/x.png" class="shape xshape" alt="" />
+        <img src="./img/shapes/wave.png" class="shape wave wave1" alt="" />
+        <img src="./img/shapes/wave.png" class="shape wave wave2" alt="" />
+        <img src="./img/shapes/triangle.png" class="shape triangle" alt="" />
+        <img src="./img/shapes/letters.png" class="letters" alt="" />
+        <img src="./img/shapes/points1.png" class="points points1" alt="" />
+      </div>
+
+      <nav>
+        <div class="container">
+          <div class="logo">
+            <img src="./img/logo.png" alt="" />
+          </div>
+
+          <div class="links">
+            <ul>
+              <li>
+                <a href="#header">Home</a>
+              </li>
+              <li>
+                <a href="#portfolio">Portfolio</a>
+              </li>
+              <li>
+                <a href="#about">About</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="hamburger-menu">
+            <div class="bar"></div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="header-content">
+        <div class="container grid-2">
+          <div class="column-1">
+            <h1 class="header-title">I'M <span class="auto-type"> </span></h1>
+            <p class="text">
+              <strong>Nombre: </strong> Cristian Alexander Palma Molina <br>
+              <strong>Carnet: </strong> 25-0878-2019 <br>
+              <strong>Carrera: </strong> Engineering in Computer Systems<br>
+              <strong>Correo: </strong> 2508782019@mail.utec.edu.sv<br>
+            </p>
+            <a href="#" class="btn">Download CV</a>
+          </div>
+
+          <div class="column-2 image">
+            <img src="./img/shapes/points2.png" class="points points2" alt="" />
+            <img src="./img/person.png" class="img-element z-index" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+    <section class="portfolio section" id="portfolio">
+      <div class="background-bg">
+        <div class="overlay overlay-sm">
+          <img src="./img/shapes/half-circle.png" class="shape half-circle1" alt="" />
+          <img src="./img/shapes/half-circle.png" class="shape half-circle2" alt="" />
+          <img src="./img/shapes/square.png" class="shape square" alt="" />
+          <img src="./img/shapes/wave.png" class="shape wave" alt="" />
+          <img src="./img/shapes/circle.png" class="shape circle" alt="" />
+          <img src="./img/shapes/triangle.png" class="shape triangle" alt="" />
+          <img src="./img/shapes/x.png" class="shape xshape" alt="" />
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="section-header">
+          <h3 class="title" data-title="Classes">Portfolio</h3>
+        </div>
+
+        <div class="section-body">
+          <div class="filter">
+            <button class="filter-btn active" data-filter="*">All</button>
+            <button class="filter-btn" data-filter=".ui">Classes</button>
+            <button class="filter-btn" data-filter=".webdev">Practice</button>
+            <button class="filter-btn" data-filter=".appdev">
+              Guides
+            </button>
+            <button class="filter-btn" data-filter=".logo-design">
+              Book
+            </button>
+          </div>
+
+          <div class="grid">
+            <div class="grid-item logo-design">
+              <div class="gallery-image">
+                <img src="./img/portfolio/port1.png" alt="" />
+                <div class="img-overlay">
+                  <div class="plus"></div>
+                  <div class="img-description">
+                    <h3>Chapter 1</h3>
+                    <h5>View More</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="grid-item ui">
+              <div class="gallery-image">
+                <img src="./img/portfolio/port3.png" alt="" />
+                <div class="img-overlay">
+                  <div class="plus"></div>
+                  <div class="img-description">
+                    <h3>21-01-2023</h3>
+                    <h5>Presentacion de Clases</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="grid-item ui">
+              <div class="gallery-image">
+                <img src="./img/portfolio/port4.png" alt="" />
+                <div class="img-overlay">
+                  <div class="plus"></div>
+                  <div class="img-description">
+                    <h3>28-01-2023</h3>
+                    <h5>Instalacion de Maquina Virtual y Xcode</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="grid-item logo-design">
+              <div class="gallery-image">
+                <img src="./img/portfolio/port5.png" alt="" />
+                <div class="img-overlay">
+                  <div class="plus"></div>
+                  <div class="img-description">
+                    <h3>Chapter 2</h3>
+                    <h5>View More</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="grid-item appdev">
+              <div class="gallery-image">
+                <img src="./img/portfolio/port6.png" alt="" />
+                <div class="img-overlay">
+                  <div class="plus"></div>
+                  <div class="img-description">
+                    <h3>Cooming Soon</h3>
+                    <h5></h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="grid-item logo-design">
+              <div class="gallery-image">
+                <img src="./img/portfolio/port7.png" alt="" />
+                <div class="img-overlay">
+                  <div class="plus"></div>
+                  <div class="img-description">
+                    <h3>Chapter 3</h3>
+                    <h5>View More</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="grid-item  ui">
+              <div class="gallery-image">
+                <img src="./img/portfolio/port8.png" alt="" />
+                <div class="img-overlay">
+                  <div class="plus"></div>
+                  <div class="img-description">
+                    <h3>04-02-2023</h3>
+                    <h5>Conociendo la interfaz y codigo de Xcode</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="grid-item ui webdev">
+              <div class="gallery-image">
+                <img src="./img/portfolio/port9.png" alt="" />
+                <div class="img-overlay">
+                  <div class="plus"></div>
+                  <div class="img-description">
+                    <h3>11-02-2023</h3>
+                    <h5>Botones</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="records">
+      <div class="overlay overlay-sm">
+        <img src="./img/shapes/square.png" alt="" class="shape square1" />
+        <img src="./img/shapes/square.png" alt="" class="shape square2" />
+        <img src="./img/shapes/circle.png" alt="" class="shape circle" />
+        <img src="./img/shapes/half-circle.png" alt="" class="shape half-circle" />
+        <img src="./img/shapes/wave.png" alt="" class="shape wave wave1" />
+        <img src="./img/shapes/wave.png" alt="" class="shape wave wave2" />
+        <img src="./img/shapes/x.png" alt="" class="shape xshape" />
+        <img src="./img/shapes/triangle.png" alt="" class="shape triangle" />
+      </div>
+
+      <div class="container">
+        <div class="wrap">
+          <div class="record-circle">
+            <h2 class="number" data-num="0">0</h2>
+            <h4 class="sub-title">Projects</h4>
+          </div>
+        </div>
+
+        <div class="wrap">
+          <div class="record-circle active">
+            <h2 class="number" data-num="4">0</h2>
+            <h4 class="sub-title">Classes</h4>
+          </div>
+        </div>
+
+        <div class="wrap">
+          <div class="record-circle">
+            <h2 class="number" data-num="1">0</h2>
+            <h4 class="sub-title">Practices</h4>
+          </div>
+        </div>
+
+        <div class="wrap">
+          <div class="record-circle">
+            <h2 class="number" data-num="12">0</h2>
+            <h4 class="sub-title">Total Hours</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <h3 class="title" data-title="Who Am I">About me</h3>
+        </div>
+
+        <div class="section-body grid-2">
+          <div class="column-1">
+            <h3 class="title-sm">Hey there, I'm Cristian Palma.</h3>
+            <p class="text">
+              <strong>I</strong>m 22-year-old student studying Engineering in Computer Systems.
+              I recently completed my first solo project for Honduras, which was an amazing experience that
+              taught me a lot about software development. I have experience with several programming languages and
+              technologies, including React Hooks, C#, JavaScript, Docker, Redux, Ajax, among other things. In addition,
+              I have
+              experience deploying projects in cloud servers such as AWS and GCP. I'm confident in my ability to write
+              high-quality code and work well both independently and as part of a team. I'm a problem-solver at heart
+              and love tackling challenges. I'm excited to explore new opportunities in the software development field
+              and continue to grow as a developer.
+            </p>
+            <p class="text">
+              <strong>Programming languages that are my strengths</strong>
+
+            </p>
+            <div class="skills">
+              <div class="skill html">
+                <h3 class="skill-title">C#</h3>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-progress="90%"></div>
+                </div>
+              </div>
+              <div class="skill css">
+                <h3 class="skill-title">TypeScript</h3>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-progress="70%"></div>
+                </div>
+              </div>
+              <div class="skill js">
+                <h3 class="skill-title">JavaScript</h3>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-progress="80%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="column-2 image selfie">
+            <img src="./img/shapes/points4.png" class="points" alt="" />
+            <img src="./img/about.png" class="z-index" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="grid-4">
+
+
+        <div class="grid-4-col footer-newstletter">
+
+
+          <div class="footer-input-wrap">
+            <input class="footer-input" placeholder="" />
+
+          </div>
+        </div>
+      </div>
+
+      <div class="bottom-footer">
+        <div class="copyright">
+          <p class="text">
+            Copyright&copy;2020 All rights reserved | Made by
+            <span>Cristian Palma</span>
+          </p>
+        </div>
+
+        <div class="followme-wrap">
+          <div class="followme">
+            <h3>Follow me</h3>
+            <span class="footer-line"></span>
+            <div class="social-media">
+              <a href="https://www.facebook.com/cristian.palma.3304?mibextid=ZbWKwL">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://twitter.com/home">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://www.instagram.com/alexpalma2203/">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/cristian-palma-07a407259/">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="back-btn-wrap">
+            <a href="#" class="back-btn">
+              <i class="fas fa-chevron-up"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    var typed = new Typed(".auto-type", {
+      strings: ["Crisitan", "Coder", "Cristian Palma"],
+      typeSpeed: 150,
+      backSpeed: 50,
+      loop: true
+    })
+
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="./js/isotope.pkgd.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+
+</html>
